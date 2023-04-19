@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('teste'){
+        stage('build'){
             steps {
-                echo oi
+                echo gerando build
             }
         }
     }
