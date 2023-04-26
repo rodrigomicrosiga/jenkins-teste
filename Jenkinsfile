@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build'){
             steps {
-                echo gerando build
+                echo gerando compilacao
             }
         }
     }
